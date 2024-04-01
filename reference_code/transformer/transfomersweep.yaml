@@ -1,0 +1,6 @@
+program: one_layer_transformer_train.py
+method: bayes
+parameters:
+  learning_rate:
+    min: 0.0001
+    max: 0.1
