@@ -185,7 +185,7 @@ def get_individual_train_dataset(
     dataset = load_dataset(
         path=data_path,
         name=data_name,
-        beam_runner="DirectRunner",
+        # beam_runner="DirectRunner",
         split="train",
         streaming=True,
         # num_proc=32,
@@ -201,7 +201,7 @@ def get_individual_test_dataset(data_path: str, data_name: str) -> Dataset:
     test_dataset_raw: Dataset = load_dataset(
         path=data_path,
         name=data_name,
-        beam_runner="DirectRunner",
+        # beam_runner="DirectRunner",
         split="train[:10]"
         # num_proc=32,
     )  # type: ignore

@@ -152,8 +152,7 @@ class TinyTransformer(PreTrainedModel):
         # MLP
         x = self.ln2(x)
         
-        for layer in self.mlp[:-1]:
-            x = layer(x)
+        x = self.mlp[0](x)
         return x
 
     def load_pretrained(self, path: str = "model/pytorch_model.bin") -> None:
