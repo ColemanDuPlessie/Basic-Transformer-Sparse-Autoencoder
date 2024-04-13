@@ -23,7 +23,7 @@ MODEL_PATH = "pytorch_model.bin"
 
 SAVED_DATA_PATH = "./dataset/MLP_activations_"
 SAVED_DATA_EXTENSION = ".pt"
-SAVE_BATCH_SIZE = 4096
+SAVE_BATCH_SIZE = 256
 
 test_dataset = get_individual_test_dataset("wikipedia", "20220301.simple") # "wikipedia", "20220301.en"
 
@@ -47,13 +47,17 @@ def gen_mlp_activations(
         activations = model.get_mlp_activations(
             input_tensor.unsqueeze(0).to(device)
         )  # (batch_size, seq_len, vocab_size)
-        out.append(activations)
+        out.append(activations.detach())
         if i % save_batch_size == save_batch_size-1:
             saving = t.stack(out, dim=0)
             t.save(saving, save_path + str(i-save_batch_size+1) + "-" + str(i) + save_extension)
             out = []
+            saving = None
+            print("Saving a batch starting with element number " + str(i))
 
 if __name__ == "__main__":
     model = TinyTransformer()
     model.load_pretrained(MODEL_PATH)
-    gen_mlp_activations(model, train_dataset, SAVED_DATA_PATH, SAVED_DATA_EXTENSION, 1024)
+    model = model.to(device)
+    gen_mlp_activations(model, train_dataset, SAVED_DATA_PATH, SAVED_DATA_EXTENSION, SAVE_BATCH_SIZE)
+    print("Finished successfully!")
