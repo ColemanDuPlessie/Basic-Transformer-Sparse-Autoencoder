@@ -30,9 +30,9 @@ test_dataset = get_individual_test_dataset("wikipedia", "20220301.simple") # "wi
 LEARNING_RATE = 0.001
 REGULARIZATION_VALUE = 0.001
 PRETRAINED_HIDDEN_SIZE = 512
-HIDDEN_SIZE = 512
-MAX_SAMPLES = 32
-BATCH_SIZE = 2
+HIDDEN_SIZE = 4096
+MAX_SAMPLES = -1
+BATCH_SIZE = 256
 
 def train_one_epoch(autoencoder, optimizer, data):
     optimizer.zero_grad()
