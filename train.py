@@ -43,11 +43,11 @@ def train_one_epoch(autoencoder, optimizer, data):
             
 def main():
 
-    pretrained_model = TinyTransformer()
+    pretrained_model = TinyTransformer().to(device)
     pretrained_model.load_pretrained(MODEL_PATH)
     pretrained_model.eval()
     
-    autoencoder = TinyAutoencoder(PRETRAINED_HIDDEN_SIZE, HIDDEN_SIZE)
+    autoencoder = TinyAutoencoder(PRETRAINED_HIDDEN_SIZE, HIDDEN_SIZE).to(device)
     optimizer = t.optim.Adam(autoencoder.parameters(), lr=0.001, weight_decay=0.001) # TODO tune these a lot
     
     activations = []
