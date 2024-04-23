@@ -1,0 +1,198 @@
+Running "module reset". Resetting modules to system default. The following $MODULEPATH directories have been removed: None
+
+Currently Loaded Modules:
+  1) gcc/11.4.0      3) cuda/11.8.0         5) slurm-env/0.1
+  2) openmpi/4.1.6   4) cue-login-env/1.0   6) default-s11
+
+ 
+
+job is starting on gpua025.delta.ncsa.illinois.edu
+Package                   Version
+------------------------- -----------
+accelerate                0.22.0
+aiohttp                   3.9.3
+aiosignal                 1.3.1
+appdirs                   1.4.4
+async-timeout             4.0.3
+attrs                     23.2.0
+certifi                   2024.2.2
+charset-normalizer        3.3.2
+click                     8.1.7
+contourpy                 1.2.1
+cycler                    0.12.1
+datasets                  2.14.7
+dill                      0.3.7
+docker-pycreds            0.4.0
+einops                    0.7.0
+filelock                  3.13.4
+fonttools                 4.51.0
+frozenlist                1.4.1
+fsspec                    2023.10.0
+gitdb                     4.0.11
+GitPython                 3.1.43
+huggingface-hub           0.22.2
+idna                      3.7
+Jinja2                    3.1.3
+jsonschema                4.21.1
+jsonschema-specifications 2023.12.1
+kiwisolver                1.4.5
+MarkupSafe                2.1.5
+matplotlib                3.8.4
+mpi4py                    3.1.4
+mpmath                    1.3.0
+msgpack                   1.0.8
+multidict                 6.0.5
+multiprocess              0.70.15
+networkx                  3.3
+numpy                     1.24.4
+nvidia-cublas-cu12        12.1.3.1
+nvidia-cuda-cupti-cu12    12.1.105
+nvidia-cuda-nvrtc-cu12    12.1.105
+nvidia-cuda-runtime-cu12  12.1.105
+nvidia-cudnn-cu12         8.9.2.26
+nvidia-cufft-cu12         11.0.2.54
+nvidia-curand-cu12        10.3.2.106
+nvidia-cusolver-cu12      11.4.5.107
+nvidia-cusparse-cu12      12.1.0.106
+nvidia-nccl-cu12          2.18.1
+nvidia-nvjitlink-cu12     12.4.127
+nvidia-nvtx-cu12          12.1.105
+packaging                 24.0
+pandas                    2.1.4
+pathtools                 0.1.2
+pillow                    10.3.0
+pip                       23.0.1
+plotly                    5.17.0
+protobuf                  4.25.3
+psutil                    5.9.8
+pyarrow                   15.0.2
+pyarrow-hotfix            0.6
+pyparsing                 3.1.2
+python-dateutil           2.9.0.post0
+pytz                      2024.1
+PyYAML                    6.0.1
+ray                       2.7.2
+referencing               0.34.0
+regex                     2023.12.25
+requests                  2.31.0
+rpds-py                   0.18.0
+sentry-sdk                1.45.0
+setproctitle              1.3.3
+setuptools                65.5.0
+six                       1.16.0
+smmap                     5.0.1
+sympy                     1.12
+tenacity                  8.2.3
+tokenizers                0.13.3
+torch                     2.1.2
+tqdm                      4.66.2
+transformers              4.28.1
+triton                    2.1.0
+typing_extensions         4.11.0
+tzdata                    2024.1
+urllib3                   2.2.1
+wandb                     0.14.2
+xxhash                    3.4.1
+yarl                      1.9.4
+/u/cduplessie/.cache/huggingface/modules/datasets_modules/datasets/c4/584d57ebe81c209b6c7f31727066d2c4b4bba37cb7092cdd83083d5ec11207db/c4.py:53: FutureWarning: Dataset 'c4' is deprecated and will be deleted. Use 'allenai/c4' instead.
+  warnings.warn(
+Repo card metadata block was not found. Setting CardData to empty.
+c4 - en: 70.42%
+wikipedia - 20220301.simple: 1.41%
+wikipedia - 20220301.en: 14.08%
+wikipedia - 20220301.fr: 3.52%
+graelo/wikipedia - 20230901.ar: 3.52%
+graelo/wikipedia - 20230601.yo: 1.06%
+graelo/wikipedia - 20230601.ja: 2.46%
+roneneldan/TinyStories - None: 3.52%
+Processing dataset
+Map:   0%|          | 0/10 [00:00<?, ? examples/s]Token indices sequence length is longer than the specified maximum sequence length for this model (3814 > 1024). Running this sequence through the model will result in indexing errors
+Map: 100%|██████████| 10/10 [00:00<00:00, 10.86 examples/s]Map: 100%|██████████| 10/10 [00:00<00:00, 10.82 examples/s]
+Saving a batch starting with element number 255
+Saving a batch starting with element number 511
+Saving a batch starting with element number 767
+Saving a batch starting with element number 1023
+Saving a batch starting with element number 1279
+Saving a batch starting with element number 1535
+Saving a batch starting with element number 1791
+Saving a batch starting with element number 2047
+Saving a batch starting with element number 2303
+Saving a batch starting with element number 2559
+Saving a batch starting with element number 2815
+Saving a batch starting with element number 3071
+Saving a batch starting with element number 3327
+Saving a batch starting with element number 3583
+Saving a batch starting with element number 3839
+Saving a batch starting with element number 4095
+Saving a batch starting with element number 4351
+Saving a batch starting with element number 4607
+Saving a batch starting with element number 4863
+Saving a batch starting with element number 5119
+Saving a batch starting with element number 5375
+Saving a batch starting with element number 5631
+Saving a batch starting with element number 5887
+Saving a batch starting with element number 6143
+Saving a batch starting with element number 6399
+Saving a batch starting with element number 6655
+Saving a batch starting with element number 6911
+Saving a batch starting with element number 7167
+Saving a batch starting with element number 7423
+Saving a batch starting with element number 7679
+Saving a batch starting with element number 7935
+Saving a batch starting with element number 8191
+Saving a batch starting with element number 8447
+Saving a batch starting with element number 8703
+Saving a batch starting with element number 8959
+Saving a batch starting with element number 9215
+Saving a batch starting with element number 9471
+Saving a batch starting with element number 9727
+Saving a batch starting with element number 9983
+Saving a batch starting with element number 10239
+Saving a batch starting with element number 10495
+Saving a batch starting with element number 10751
+Saving a batch starting with element number 11007
+Saving a batch starting with element number 11263
+Saving a batch starting with element number 11519
+Saving a batch starting with element number 11775
+Saving a batch starting with element number 12031
+Saving a batch starting with element number 12287
+Saving a batch starting with element number 12543
+Saving a batch starting with element number 12799
+Saving a batch starting with element number 13055
+Saving a batch starting with element number 13311
+Saving a batch starting with element number 13567
+Saving a batch starting with element number 13823
+Saving a batch starting with element number 14079
+Saving a batch starting with element number 14335
+Saving a batch starting with element number 14591
+Saving a batch starting with element number 14847
+Saving a batch starting with element number 15103
+Saving a batch starting with element number 15359
+Saving a batch starting with element number 15615
+Saving a batch starting with element number 15871
+Saving a batch starting with element number 16127
+Saving a batch starting with element number 16383
+Saving a batch starting with element number 16639
+Saving a batch starting with element number 16895
+Saving a batch starting with element number 17151
+Saving a batch starting with element number 17407
+Traceback (most recent call last):
+  File "/u/cduplessie/huggingface-env/lib/python3.10/site-packages/torch/serialization.py", line 619, in save
+    _save(obj, opened_zipfile, pickle_module, pickle_protocol, _disable_byteorder_record)
+  File "/u/cduplessie/huggingface-env/lib/python3.10/site-packages/torch/serialization.py", line 853, in _save
+    zip_file.write_record(name, storage.data_ptr(), num_bytes)
+RuntimeError: [enforce fail at inline_container.cc:588] . PytorchStreamWriter failed writing file data/0: file write failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/u/cduplessie/Basic-Transformer-Sparse-Autoencoder/generate_activations.py", line 62, in <module>
+    gen_mlp_activations(model, train_dataset, SAVED_DATA_PATH, SAVED_DATA_EXTENSION, SAVE_BATCH_SIZE)
+  File "/u/cduplessie/Basic-Transformer-Sparse-Autoencoder/generate_activations.py", line 53, in gen_mlp_activations
+    t.save(saving, save_path + str(i-save_batch_size+1) + "-" + str(i) + save_extension)
+  File "/u/cduplessie/huggingface-env/lib/python3.10/site-packages/torch/serialization.py", line 618, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "/u/cduplessie/huggingface-env/lib/python3.10/site-packages/torch/serialization.py", line 466, in __exit__
+    self.file_like.write_end_of_file()
+RuntimeError: [enforce fail at inline_container.cc:424] . unexpected pos 576 vs 470
+srun: error: gpua025: task 0: Exited with exit code 1

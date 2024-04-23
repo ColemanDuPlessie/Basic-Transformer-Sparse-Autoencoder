@@ -1,0 +1,1138 @@
+Running "module reset". Resetting modules to system default. The following $MODULEPATH directories have been removed: None
+
+Currently Loaded Modules:
+  1) gcc/11.4.0      3) cuda/11.8.0         5) slurm-env/0.1
+  2) openmpi/4.1.6   4) cue-login-env/1.0   6) default-s11
+
+ 
+
+job is starting on gpua003.delta.ncsa.illinois.edu
+Package                   Version
+------------------------- -----------
+accelerate                0.22.0
+aiohttp                   3.9.3
+aiosignal                 1.3.1
+appdirs                   1.4.4
+async-timeout             4.0.3
+attrs                     23.2.0
+certifi                   2024.2.2
+charset-normalizer        3.3.2
+click                     8.1.7
+contourpy                 1.2.1
+cycler                    0.12.1
+datasets                  2.14.7
+dill                      0.3.7
+docker-pycreds            0.4.0
+einops                    0.7.0
+filelock                  3.13.4
+fonttools                 4.51.0
+frozenlist                1.4.1
+fsspec                    2023.10.0
+gitdb                     4.0.11
+GitPython                 3.1.43
+huggingface-hub           0.22.2
+idna                      3.7
+Jinja2                    3.1.3
+jsonschema                4.21.1
+jsonschema-specifications 2023.12.1
+kiwisolver                1.4.5
+MarkupSafe                2.1.5
+matplotlib                3.8.4
+mpi4py                    3.1.4
+mpmath                    1.3.0
+msgpack                   1.0.8
+multidict                 6.0.5
+multiprocess              0.70.15
+networkx                  3.3
+numpy                     1.24.4
+nvidia-cublas-cu12        12.1.3.1
+nvidia-cuda-cupti-cu12    12.1.105
+nvidia-cuda-nvrtc-cu12    12.1.105
+nvidia-cuda-runtime-cu12  12.1.105
+nvidia-cudnn-cu12         8.9.2.26
+nvidia-cufft-cu12         11.0.2.54
+nvidia-curand-cu12        10.3.2.106
+nvidia-cusolver-cu12      11.4.5.107
+nvidia-cusparse-cu12      12.1.0.106
+nvidia-nccl-cu12          2.18.1
+nvidia-nvjitlink-cu12     12.4.127
+nvidia-nvtx-cu12          12.1.105
+packaging                 24.0
+pandas                    2.1.4
+pathtools                 0.1.2
+pillow                    10.3.0
+pip                       23.0.1
+plotly                    5.17.0
+protobuf                  4.25.3
+psutil                    5.9.8
+pyarrow                   15.0.2
+pyarrow-hotfix            0.6
+pyparsing                 3.1.2
+python-dateutil           2.9.0.post0
+pytz                      2024.1
+PyYAML                    6.0.1
+ray                       2.7.2
+referencing               0.34.0
+regex                     2023.12.25
+requests                  2.31.0
+rpds-py                   0.18.0
+sentry-sdk                1.45.0
+setproctitle              1.3.3
+setuptools                65.5.0
+six                       1.16.0
+smmap                     5.0.1
+sympy                     1.12
+tenacity                  8.2.3
+tokenizers                0.13.3
+torch                     2.1.2
+tqdm                      4.66.2
+transformers              4.28.1
+triton                    2.1.0
+typing_extensions         4.11.0
+tzdata                    2024.1
+urllib3                   2.2.1
+wandb                     0.14.2
+xxhash                    3.4.1
+yarl                      1.9.4
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+/u/cduplessie/.cache/huggingface/modules/datasets_modules/datasets/c4/584d57ebe81c209b6c7f31727066d2c4b4bba37cb7092cdd83083d5ec11207db/c4.py:53: FutureWarning: Dataset 'c4' is deprecated and will be deleted. Use 'allenai/c4' instead.
+  warnings.warn(
+Repo card metadata block was not found. Setting CardData to empty.
+c4 - en: 70.42%
+wikipedia - 20220301.simple: 1.41%
+wikipedia - 20220301.en: 14.08%
+wikipedia - 20220301.fr: 3.52%
+graelo/wikipedia - 20230901.ar: 3.52%
+graelo/wikipedia - 20230601.yo: 1.06%
+graelo/wikipedia - 20230601.ja: 2.46%
+roneneldan/TinyStories - None: 3.52%
+Processing dataset
+Map:   0%|          | 0/10 [00:00<?, ? examples/s]Token indices sequence length is longer than the specified maximum sequence length for this model (3814 > 1024). Running this sequence through the model will result in indexing errors
+Map: 100%|██████████| 10/10 [00:01<00:00,  9.37 examples/s]Map: 100%|██████████| 10/10 [00:01<00:00,  9.34 examples/s]
+Completed batch 0 with loss 2.4389612674713135.
+Completed batch 1 with loss 1.3206977844238281.
+Completed batch 2 with loss 0.9271648526191711.
+Completed batch 3 with loss 0.6940910816192627.
+Completed batch 4 with loss 0.6298519968986511.
+Completed batch 5 with loss 0.5824742317199707.
+Completed batch 6 with loss 0.522972583770752.
+Completed batch 7 with loss 0.48618924617767334.
+Completed batch 8 with loss 0.43648335337638855.
+Completed batch 9 with loss 0.4056861400604248.
+Completed batch 10 with loss 0.37501752376556396.
+Completed batch 11 with loss 0.36318016052246094.
+Completed batch 12 with loss 0.33681389689445496.
+Completed batch 13 with loss 0.3195890784263611.
+Completed batch 14 with loss 0.2962239980697632.
+Completed batch 15 with loss 0.27302777767181396.
+Completed batch 16 with loss 0.26299336552619934.
+Completed batch 17 with loss 0.2391476333141327.
+Completed batch 18 with loss 0.2389240562915802.
+Completed batch 19 with loss 0.2299051284790039.
+Completed batch 20 with loss 0.22642654180526733.
+Completed batch 21 with loss 0.21031343936920166.
+Completed batch 22 with loss 0.19872501492500305.
+Completed batch 23 with loss 0.19204366207122803.
+Completed batch 24 with loss 0.17346036434173584.
+Completed batch 25 with loss 0.17629601061344147.
+Completed batch 26 with loss 0.17136318981647491.
+Completed batch 27 with loss 0.16304634511470795.
+Completed batch 28 with loss 0.1604064255952835.
+Completed batch 29 with loss 0.15909002721309662.
+Completed batch 30 with loss 0.15909621119499207.
+Completed batch 31 with loss 0.14901313185691833.
+Completed batch 32 with loss 0.14948880672454834.
+Completed batch 33 with loss 0.1404302716255188.
+Completed batch 34 with loss 0.14222264289855957.
+Completed batch 35 with loss 0.12730875611305237.
+Completed batch 36 with loss 0.12416375428438187.
+Completed batch 37 with loss 0.11919298768043518.
+Completed batch 38 with loss 0.11095987260341644.
+Completed batch 39 with loss 0.10788558423519135.
+Completed batch 40 with loss 0.10604498535394669.
+Completed batch 41 with loss 0.10344535857439041.
+Completed batch 42 with loss 0.1004101112484932.
+Completed batch 43 with loss 0.1018110066652298.
+Completed batch 44 with loss 0.09944131970405579.
+Completed batch 45 with loss 0.09399206191301346.
+Completed batch 46 with loss 0.09127061069011688.
+Completed batch 47 with loss 0.09884566068649292.
+Completed batch 48 with loss 0.13086500763893127.
+Completed batch 49 with loss 0.15244024991989136.
+Completed batch 50 with loss 0.08584916591644287.
+Completed batch 51 with loss 0.11563239991664886.
+Completed batch 52 with loss 0.09937049448490143.
+Completed batch 53 with loss 0.09471718966960907.
+Completed batch 54 with loss 0.09106588363647461.
+Completed batch 55 with loss 0.08547382056713104.
+Completed batch 56 with loss 0.08581152558326721.
+Completed batch 57 with loss 0.07866516709327698.
+Completed batch 58 with loss 0.07044114917516708.
+Completed batch 59 with loss 0.07594761252403259.
+Completed batch 60 with loss 0.07135714590549469.
+Completed batch 61 with loss 0.07652227580547333.
+Completed batch 62 with loss 0.06930432468652725.
+Completed batch 63 with loss 0.0717102438211441.
+Completed batch 64 with loss 0.06494057178497314.
+Completed batch 65 with loss 0.06869888305664062.
+Completed batch 66 with loss 0.06427852809429169.
+Completed batch 67 with loss 0.06667345017194748.
+Completed batch 68 with loss 0.06045844405889511.
+Completed batch 69 with loss 0.06540248543024063.
+Completed batch 70 with loss 0.060306087136268616.
+Completed batch 71 with loss 0.06204768270254135.
+Completed batch 72 with loss 0.06022132188081741.
+Completed batch 73 with loss 0.05884312093257904.
+Completed batch 74 with loss 0.059907056391239166.
+Completed batch 75 with loss 0.05778200179338455.
+Completed batch 76 with loss 0.058510757982730865.
+Completed batch 77 with loss 0.05428466200828552.
+Completed batch 78 with loss 0.05531638115644455.
+Completed batch 79 with loss 0.052730903029441833.
+Completed batch 80 with loss 0.05419357120990753.
+Completed batch 81 with loss 0.05305170267820358.
+Completed batch 82 with loss 0.05390586704015732.
+Completed batch 83 with loss 0.053872961550951004.
+Completed batch 84 with loss 0.04811292514204979.
+Completed batch 85 with loss 0.048167504370212555.
+Completed batch 86 with loss 0.048873960971832275.
+Completed batch 87 with loss 0.048829831182956696.
+Completed batch 88 with loss 0.05214761570096016.
+Completed batch 89 with loss 0.07142135500907898.
+Completed batch 90 with loss 0.11768622696399689.
+Completed batch 91 with loss 0.11467444896697998.
+Completed batch 92 with loss 0.05049361288547516.
+Completed batch 93 with loss 0.07930171489715576.
+Completed batch 94 with loss 0.06946036964654922.
+Completed batch 95 with loss 0.05850529670715332.
+Completed batch 96 with loss 0.0717320442199707.
+Completed batch 97 with loss 0.05038083344697952.
+Completed batch 98 with loss 0.06090283393859863.
+Completed batch 99 with loss 0.05209099501371384.
+Completed batch 100 with loss 0.055561475455760956.
+Completed batch 101 with loss 0.049983516335487366.
+Completed batch 102 with loss 0.04712722450494766.
+Completed batch 103 with loss 0.046445250511169434.
+Completed batch 104 with loss 0.04564443230628967.
+Completed batch 105 with loss 0.05153105780482292.
+Completed batch 106 with loss 0.04400063306093216.
+Completed batch 107 with loss 0.04756901413202286.
+Completed batch 108 with loss 0.04345152527093887.
+Completed batch 109 with loss 0.04470852017402649.
+Completed batch 110 with loss 0.043451711535453796.
+Completed batch 111 with loss 0.04363490268588066.
+Completed batch 112 with loss 0.04379608482122421.
+Completed batch 113 with loss 0.044611621648073196.
+Completed batch 114 with loss 0.04557119682431221.
+Completed batch 115 with loss 0.04494079574942589.
+Completed batch 116 with loss 0.04342750459909439.
+Completed batch 117 with loss 0.04060008004307747.
+Completed batch 118 with loss 0.04125554859638214.
+Completed batch 119 with loss 0.040842872112989426.
+Completed batch 120 with loss 0.041020043194293976.
+Completed batch 121 with loss 0.03933850675821304.
+Completed batch 122 with loss 0.037940606474876404.
+Completed batch 123 with loss 0.039273157715797424.
+Completed batch 124 with loss 0.038281477987766266.
+Completed batch 125 with loss 0.038800738751888275.
+Completed batch 126 with loss 0.03730195388197899.
+Completed batch 127 with loss 0.03931970149278641.
+Completed batch 128 with loss 0.04075968638062477.
+Completed batch 129 with loss 0.0394076444208622.
+Completed batch 130 with loss 0.03770571947097778.
+Completed batch 131 with loss 0.03713354095816612.
+Completed batch 132 with loss 0.036151062697172165.
+Completed batch 133 with loss 0.03702540695667267.
+Completed batch 134 with loss 0.03684358671307564.
+Completed batch 135 with loss 0.036866165697574615.
+Completed batch 136 with loss 0.03650663048028946.
+Completed batch 137 with loss 0.03659605234861374.
+Completed batch 138 with loss 0.03779652714729309.
+Completed batch 139 with loss 0.03633119910955429.
+Completed batch 140 with loss 0.03705742955207825.
+Completed batch 141 with loss 0.036683276295661926.
+Completed batch 142 with loss 0.0352424755692482.
+Completed batch 143 with loss 0.03508235886693001.
+Completed batch 144 with loss 0.034674063324928284.
+Completed batch 145 with loss 0.035286299884319305.
+Completed batch 146 with loss 0.03809588775038719.
+Completed batch 147 with loss 0.04303603246808052.
+Completed batch 148 with loss 0.052077919244766235.
+Completed batch 149 with loss 0.05472400784492493.
+Completed batch 150 with loss 0.05097290128469467.
+Completed batch 151 with loss 0.046262457966804504.
+Completed batch 152 with loss 0.03583170101046562.
+Completed batch 153 with loss 0.04010966792702675.
+Completed batch 154 with loss 0.04610469564795494.
+Completed batch 155 with loss 0.04058593511581421.
+Completed batch 156 with loss 0.033815011382102966.
+Completed batch 157 with loss 0.03692523017525673.
+Completed batch 158 with loss 0.038723792880773544.
+Completed batch 159 with loss 0.03367781266570091.
+Completed batch 160 with loss 0.03719811141490936.
+Completed batch 161 with loss 0.0380694642663002.
+Completed batch 162 with loss 0.03314361721277237.
+Completed batch 163 with loss 0.035001106560230255.
+Completed batch 164 with loss 0.03781050816178322.
+Completed batch 165 with loss 0.03268942981958389.
+Completed batch 166 with loss 0.034637171775102615.
+Completed batch 167 with loss 0.037251271307468414.
+Completed batch 168 with loss 0.034837350249290466.
+Completed batch 169 with loss 0.03475870564579964.
+Completed batch 170 with loss 0.03625572845339775.
+Completed batch 171 with loss 0.034593213349580765.
+Completed batch 172 with loss 0.03323209285736084.
+Completed batch 173 with loss 0.03378039598464966.
+Completed batch 174 with loss 0.033008091151714325.
+Completed batch 175 with loss 0.031629547476768494.
+Completed batch 176 with loss 0.03339788690209389.
+Completed batch 177 with loss 0.0361613854765892.
+Completed batch 178 with loss 0.04173092544078827.
+Completed batch 179 with loss 0.06110706552863121.
+Completed batch 180 with loss 0.1102379858493805.
+Completed batch 181 with loss 0.1303006112575531.
+Completed batch 182 with loss 0.05359482020139694.
+Completed batch 183 with loss 0.08007386326789856.
+Completed batch 184 with loss 0.050492458045482635.
+Completed batch 185 with loss 0.06986520439386368.
+Completed batch 186 with loss 0.046103186905384064.
+Completed batch 187 with loss 0.06377223134040833.
+Completed batch 188 with loss 0.04212024062871933.
+Completed batch 189 with loss 0.05561066046357155.
+Completed batch 190 with loss 0.04186782240867615.
+Completed batch 191 with loss 0.047201741486787796.
+Completed batch 192 with loss 0.0460139736533165.
+Completed batch 193 with loss 0.0393744632601738.
+Completed batch 194 with loss 0.04484883323311806.
+Completed batch 195 with loss 0.036502014845609665.
+Completed batch 196 with loss 0.04137018695473671.
+Completed batch 197 with loss 0.034053005278110504.
+Completed batch 198 with loss 0.03666078299283981.
+Completed batch 199 with loss 0.03494591638445854.
+Completed batch 200 with loss 0.03454194962978363.
+Completed batch 201 with loss 0.03534223139286041.
+Completed batch 202 with loss 0.03389424458146095.
+Completed batch 203 with loss 0.03541254997253418.
+Completed batch 204 with loss 0.03337913006544113.
+Completed batch 205 with loss 0.034188203513622284.
+Completed batch 206 with loss 0.032473381608724594.
+Completed batch 207 with loss 0.03261495754122734.
+Completed batch 208 with loss 0.031226322054862976.
+Completed batch 209 with loss 0.0311456099152565.
+Completed batch 210 with loss 0.03048749640583992.
+Completed batch 211 with loss 0.031097425147891045.
+Completed batch 212 with loss 0.030210373923182487.
+Completed batch 213 with loss 0.03096526674926281.
+Completed batch 214 with loss 0.031417228281497955.
+Completed batch 215 with loss 0.03057236596941948.
+Completed batch 216 with loss 0.03038175031542778.
+Completed batch 217 with loss 0.029859371483325958.
+Completed batch 218 with loss 0.030071910470724106.
+Completed batch 219 with loss 0.030532946810126305.
+Completed batch 220 with loss 0.030390357598662376.
+Completed batch 221 with loss 0.03046061471104622.
+Completed batch 222 with loss 0.030965514481067657.
+Completed batch 223 with loss 0.030561700463294983.
+Completed batch 224 with loss 0.02997075952589512.
+Completed batch 225 with loss 0.029178224503993988.
+Completed batch 226 with loss 0.030359968543052673.
+Completed batch 227 with loss 0.02958405762910843.
+Completed batch 228 with loss 0.031091123819351196.
+Completed batch 229 with loss 0.028960056602954865.
+Completed batch 230 with loss 0.029588613659143448.
+Completed batch 231 with loss 0.028823478147387505.
+Completed batch 232 with loss 0.029089704155921936.
+Completed batch 233 with loss 0.029104866087436676.
+Completed batch 234 with loss 0.029057800769805908.
+Completed batch 235 with loss 0.029565026983618736.
+Completed batch 236 with loss 0.02958282083272934.
+Completed batch 237 with loss 0.029656605795025826.
+Completed batch 238 with loss 0.02865755185484886.
+Completed batch 239 with loss 0.028693873435258865.
+Completed batch 240 with loss 0.027805350720882416.
+Completed batch 241 with loss 0.02776157110929489.
+Completed batch 242 with loss 0.028974782675504684.
+Completed batch 243 with loss 0.02897820621728897.
+Completed batch 244 with loss 0.026987189427018166.
+Completed batch 245 with loss 0.02781638130545616.
+Completed batch 246 with loss 0.027141891419887543.
+Completed batch 247 with loss 0.02793816849589348.
+Completed batch 248 with loss 0.02851031720638275.
+Completed batch 249 with loss 0.028733717277646065.
+Completed batch 250 with loss 0.03033149428665638.
+Completed batch 251 with loss 0.0334625244140625.
+Completed batch 252 with loss 0.04504885524511337.
+Completed batch 253 with loss 0.06484554708003998.
+Completed batch 254 with loss 0.08338025212287903.
+Completed batch 255 with loss 0.06995908170938492.
+Completed batch 256 with loss 0.036191489547491074.
+Completed batch 257 with loss 0.04575977474451065.
+Completed batch 258 with loss 0.047076378017663956.
+Completed batch 259 with loss 0.03466238081455231.
+Completed batch 260 with loss 0.045127615332603455.
+Completed batch 261 with loss 0.03351029381155968.
+Completed batch 262 with loss 0.04092764854431152.
+Completed batch 263 with loss 0.03480711206793785.
+Completed batch 264 with loss 0.037709079682826996.
+Completed batch 265 with loss 0.035364992916584015.
+Completed batch 266 with loss 0.034806400537490845.
+Completed batch 267 with loss 0.0359903983771801.
+Completed batch 268 with loss 0.033879078924655914.
+Completed batch 269 with loss 0.03441353514790535.
+Completed batch 270 with loss 0.031317178159952164.
+Completed batch 271 with loss 0.03311140090227127.
+Completed batch 272 with loss 0.02943366765975952.
+Completed batch 273 with loss 0.03223364055156708.
+Completed batch 274 with loss 0.02882886677980423.
+Completed batch 275 with loss 0.0320451445877552.
+Completed batch 276 with loss 0.028450416401028633.
+Completed batch 277 with loss 0.02939387410879135.
+Completed batch 278 with loss 0.03025181032717228.
+Completed batch 279 with loss 0.02883572317659855.
+Completed batch 280 with loss 0.02849537506699562.
+Completed batch 281 with loss 0.026718422770500183.
+Completed batch 282 with loss 0.028699882328510284.
+Completed batch 283 with loss 0.02824609912931919.
+Completed batch 284 with loss 0.028676191344857216.
+Completed batch 285 with loss 0.030510742217302322.
+Completed batch 286 with loss 0.029955629259347916.
+Completed batch 287 with loss 0.02826480194926262.
+Completed batch 288 with loss 0.029450388625264168.
+Completed batch 289 with loss 0.029374979436397552.
+Completed batch 290 with loss 0.030528035014867783.
+Completed batch 291 with loss 0.030254408717155457.
+Completed batch 292 with loss 0.028210671618580818.
+Completed batch 293 with loss 0.028548164293169975.
+Completed batch 294 with loss 0.02836455963551998.
+Completed batch 295 with loss 0.02995254285633564.
+Completed batch 296 with loss 0.029081828892230988.
+Completed batch 297 with loss 0.029691286385059357.
+Completed batch 298 with loss 0.029613355174660683.
+Completed batch 299 with loss 0.03167446330189705.
+Completed batch 300 with loss 0.03547651320695877.
+Completed batch 301 with loss 0.040679413825273514.
+Completed batch 302 with loss 0.045990489423274994.
+Completed batch 303 with loss 0.05356006324291229.
+Completed batch 304 with loss 0.059686560183763504.
+Completed batch 305 with loss 0.06310626119375229.
+Completed batch 306 with loss 0.05422227457165718.
+Completed batch 307 with loss 0.04496288299560547.
+Completed batch 308 with loss 0.042733870446681976.
+Completed batch 309 with loss 0.038789667189121246.
+Completed batch 310 with loss 0.04080949351191521.
+Completed batch 311 with loss 0.042219847440719604.
+Completed batch 312 with loss 0.03432230278849602.
+Completed batch 313 with loss 0.03751838579773903.
+Completed batch 314 with loss 0.034963399171829224.
+Completed batch 315 with loss 0.03348658233880997.
+Completed batch 316 with loss 0.03375998139381409.
+Completed batch 317 with loss 0.03154277801513672.
+Completed batch 318 with loss 0.033141881227493286.
+Completed batch 319 with loss 0.02948763594031334.
+Completed batch 320 with loss 0.03257938474416733.
+Completed batch 321 with loss 0.03045305237174034.
+Completed batch 322 with loss 0.03006867691874504.
+Completed batch 323 with loss 0.030752569437026978.
+Completed batch 324 with loss 0.028856776654720306.
+Completed batch 325 with loss 0.031284984201192856.
+Completed batch 326 with loss 0.028779935091733932.
+Completed batch 327 with loss 0.02941489964723587.
+Completed batch 328 with loss 0.028358466923236847.
+Completed batch 329 with loss 0.027432957664132118.
+Completed batch 330 with loss 0.027081139385700226.
+Completed batch 331 with loss 0.02727041020989418.
+Completed batch 332 with loss 0.02780492790043354.
+Completed batch 333 with loss 0.027488788589835167.
+Completed batch 334 with loss 0.027319787070155144.
+Completed batch 335 with loss 0.026890430599451065.
+Completed batch 336 with loss 0.026964368298649788.
+Completed batch 337 with loss 0.027518626302480698.
+Completed batch 338 with loss 0.027191825211048126.
+Completed batch 339 with loss 0.02697480469942093.
+Completed batch 340 with loss 0.02717982418835163.
+Completed batch 341 with loss 0.026265401393175125.
+Completed batch 342 with loss 0.027093052864074707.
+Completed batch 343 with loss 0.026660554111003876.
+Completed batch 344 with loss 0.026894021779298782.
+Completed batch 345 with loss 0.028092756867408752.
+Completed batch 346 with loss 0.031969279050827026.
+Completed batch 347 with loss 0.04064057767391205.
+Completed batch 348 with loss 0.055090732872486115.
+Completed batch 349 with loss 0.05483725294470787.
+Completed batch 350 with loss 0.04104681313037872.
+Completed batch 351 with loss 0.03017459623515606.
+Completed batch 352 with loss 0.03894886374473572.
+Completed batch 353 with loss 0.03655396029353142.
+Completed batch 354 with loss 0.030353710055351257.
+Completed batch 355 with loss 0.03637734428048134.
+Completed batch 356 with loss 0.03338362276554108.
+Completed batch 357 with loss 0.030863074585795403.
+Completed batch 358 with loss 0.034462831914424896.
+Completed batch 359 with loss 0.028775595128536224.
+Completed batch 360 with loss 0.03150269389152527.
+Completed batch 361 with loss 0.03070402890443802.
+Completed batch 362 with loss 0.02914505824446678.
+Completed batch 363 with loss 0.031063687056303024.
+Completed batch 364 with loss 0.02849401906132698.
+Completed batch 365 with loss 0.02942163310945034.
+Completed batch 366 with loss 0.02969229966402054.
+Completed batch 367 with loss 0.028322838246822357.
+Completed batch 368 with loss 0.02984907664358616.
+Completed batch 369 with loss 0.02921200916171074.
+Completed batch 370 with loss 0.028215527534484863.
+Completed batch 371 with loss 0.028900818899273872.
+Completed batch 372 with loss 0.027794916182756424.
+Completed batch 373 with loss 0.02830819971859455.
+Completed batch 374 with loss 0.028219696134328842.
+Completed batch 375 with loss 0.028120078146457672.
+Completed batch 376 with loss 0.028022589161992073.
+Completed batch 377 with loss 0.028169339522719383.
+Completed batch 378 with loss 0.028972025960683823.
+Completed batch 379 with loss 0.0285206139087677.
+Completed batch 380 with loss 0.029094912111759186.
+Completed batch 381 with loss 0.029292801395058632.
+Completed batch 382 with loss 0.028199434280395508.
+Completed batch 383 with loss 0.02804725430905819.
+Completed batch 384 with loss 0.027942419052124023.
+Completed batch 385 with loss 0.0282734502106905.
+Completed batch 386 with loss 0.028572242707014084.
+Completed batch 387 with loss 0.03011242300271988.
+Completed batch 388 with loss 0.03370629623532295.
+Completed batch 389 with loss 0.047647394239902496.
+Completed batch 390 with loss 0.07534462213516235.
+Completed batch 391 with loss 0.10301133990287781.
+Completed batch 392 with loss 0.08131587505340576.
+Completed batch 393 with loss 0.03620758652687073.
+Completed batch 394 with loss 0.058883700519800186.
+Completed batch 395 with loss 0.04177415370941162.
+Completed batch 396 with loss 0.05027271807193756.
+Completed batch 397 with loss 0.044018156826496124.
+Completed batch 398 with loss 0.0410914346575737.
+Completed batch 399 with loss 0.04233052581548691.
+Completed batch 400 with loss 0.03945246338844299.
+Completed batch 401 with loss 0.039183661341667175.
+Completed batch 402 with loss 0.038822609931230545.
+Completed batch 403 with loss 0.0346524715423584.
+Completed batch 404 with loss 0.036623723804950714.
+Completed batch 405 with loss 0.032164450734853745.
+Completed batch 406 with loss 0.03312753140926361.
+Completed batch 407 with loss 0.03221811354160309.
+Completed batch 408 with loss 0.032583579421043396.
+Completed batch 409 with loss 0.03166380524635315.
+Completed batch 410 with loss 0.03001689538359642.
+Completed batch 411 with loss 0.0314638651907444.
+Completed batch 412 with loss 0.027949124574661255.
+Completed batch 413 with loss 0.03047904558479786.
+Completed batch 414 with loss 0.0284736305475235.
+Completed batch 415 with loss 0.03050725720822811.
+Completed batch 416 with loss 0.028955940157175064.
+Completed batch 417 with loss 0.030173789709806442.
+Completed batch 418 with loss 0.029194535687565804.
+Completed batch 419 with loss 0.028867259621620178.
+Completed batch 420 with loss 0.029447557404637337.
+Completed batch 421 with loss 0.027441147714853287.
+Completed batch 422 with loss 0.028134014457464218.
+Completed batch 423 with loss 0.02855626866221428.
+Completed batch 424 with loss 0.02693454921245575.
+Completed batch 425 with loss 0.028750404715538025.
+Completed batch 426 with loss 0.027501221746206284.
+Completed batch 427 with loss 0.02835497446358204.
+Completed batch 428 with loss 0.028910471126437187.
+Completed batch 429 with loss 0.027385268360376358.
+Completed batch 430 with loss 0.026955127716064453.
+Completed batch 431 with loss 0.027054432779550552.
+Completed batch 432 with loss 0.026639319956302643.
+Completed batch 433 with loss 0.02761003188788891.
+Completed batch 434 with loss 0.026930345222353935.
+Completed batch 435 with loss 0.026303090155124664.
+Completed batch 436 with loss 0.02815730683505535.
+Completed batch 437 with loss 0.02853795886039734.
+Completed batch 438 with loss 0.033465709537267685.
+Completed batch 439 with loss 0.048209626227617264.
+Completed batch 440 with loss 0.08755268156528473.
+Completed batch 441 with loss 0.1466737538576126.
+Completed batch 442 with loss 0.12302577495574951.
+Completed batch 443 with loss 0.04583904892206192.
+Completed batch 444 with loss 0.08829401433467865.
+Completed batch 445 with loss 0.04681386053562164.
+Completed batch 446 with loss 0.07336165755987167.
+Completed batch 447 with loss 0.04428467899560928.
+Completed batch 448 with loss 0.06529492139816284.
+Completed batch 449 with loss 0.04764966666698456.
+Completed batch 450 with loss 0.053367938846349716.
+Completed batch 451 with loss 0.0508652999997139.
+Completed batch 452 with loss 0.04241471365094185.
+Completed batch 453 with loss 0.050709068775177.
+Completed batch 454 with loss 0.03866235539317131.
+Completed batch 455 with loss 0.045405611395835876.
+Completed batch 456 with loss 0.03776425123214722.
+Completed batch 457 with loss 0.04111086577177048.
+Completed batch 458 with loss 0.0382508784532547.
+Completed batch 459 with loss 0.036166053265333176.
+Completed batch 460 with loss 0.03541712090373039.
+Completed batch 461 with loss 0.03518282622098923.
+Completed batch 462 with loss 0.035005733370780945.
+Completed batch 463 with loss 0.0326065793633461.
+Completed batch 464 with loss 0.032141827046871185.
+Completed batch 465 with loss 0.031246323138475418.
+Completed batch 466 with loss 0.03127862140536308.
+Completed batch 467 with loss 0.030905310064554214.
+Completed batch 468 with loss 0.02941266819834709.
+Completed batch 469 with loss 0.029726658016443253.
+Completed batch 470 with loss 0.028434231877326965.
+Completed batch 471 with loss 0.029381494969129562.
+Completed batch 472 with loss 0.028339188545942307.
+Completed batch 473 with loss 0.027920041233301163.
+Completed batch 474 with loss 0.028016265481710434.
+Completed batch 475 with loss 0.027885213494300842.
+Completed batch 476 with loss 0.028268378227949142.
+Completed batch 477 with loss 0.027160769328475.
+Completed batch 478 with loss 0.027511250227689743.
+Completed batch 479 with loss 0.027191344648599625.
+Completed batch 480 with loss 0.026716461405158043.
+Completed batch 481 with loss 0.027939211577177048.
+Completed batch 482 with loss 0.0270848348736763.
+Completed batch 483 with loss 0.027250370010733604.
+Completed batch 484 with loss 0.0278182290494442.
+Completed batch 485 with loss 0.027263155207037926.
+Completed batch 486 with loss 0.026567384600639343.
+Completed batch 487 with loss 0.026951394975185394.
+Completed batch 488 with loss 0.029797246679663658.
+Completed batch 489 with loss 0.03427901864051819.
+Completed batch 490 with loss 0.04255150258541107.
+Completed batch 491 with loss 0.061280377209186554.
+Completed batch 492 with loss 0.0705367922782898.
+Completed batch 493 with loss 0.050263211131095886.
+Completed batch 494 with loss 0.03062301129102707.
+Completed batch 495 with loss 0.03918837383389473.
+Completed batch 496 with loss 0.04451746493577957.
+Completed batch 497 with loss 0.03055572882294655.
+Completed batch 498 with loss 0.036110326647758484.
+Completed batch 499 with loss 0.035893477499485016.
+Completed batch 500 with loss 0.029293540865182877.
+Completed batch 501 with loss 0.037318818271160126.
+Completed batch 502 with loss 0.02957628294825554.
+Completed batch 503 with loss 0.03188103064894676.
+Completed batch 504 with loss 0.03160944581031799.
+Completed batch 505 with loss 0.02871607057750225.
+Completed batch 506 with loss 0.030867204070091248.
+Completed batch 507 with loss 0.02713903784751892.
+Completed batch 508 with loss 0.030150488018989563.
+Completed batch 509 with loss 0.02874758094549179.
+Completed batch 510 with loss 0.028899777680635452.
+Completed batch 511 with loss 0.029403042048215866.
+Completed batch 512 with loss 0.026858460158109665.
+Completed batch 513 with loss 0.02895849384367466.
+Completed batch 514 with loss 0.02744404226541519.
+Completed batch 515 with loss 0.02808495983481407.
+Completed batch 516 with loss 0.028593141585588455.
+Completed batch 517 with loss 0.026090379804372787.
+Completed batch 518 with loss 0.025412019342184067.
+Completed batch 519 with loss 0.02608625404536724.
+Completed batch 520 with loss 0.025439370423555374.
+Completed batch 521 with loss 0.02731234021484852.
+Completed batch 522 with loss 0.028408043086528778.
+Completed batch 523 with loss 0.028821706771850586.
+Completed batch 524 with loss 0.028868092224001884.
+Completed batch 525 with loss 0.030089687556028366.
+Completed batch 526 with loss 0.028670605272054672.
+Completed batch 527 with loss 0.029162369668483734.
+Completed batch 528 with loss 0.02930726669728756.
+Completed batch 529 with loss 0.02780144289135933.
+Completed batch 530 with loss 0.028720278292894363.
+Completed batch 531 with loss 0.028781171888113022.
+Completed batch 532 with loss 0.02760743722319603.
+Completed batch 533 with loss 0.028346922248601913.
+Completed batch 534 with loss 0.029360879212617874.
+Completed batch 535 with loss 0.030239924788475037.
+Completed batch 536 with loss 0.03369598090648651.
+Completed batch 537 with loss 0.047348473221063614.
+Completed batch 538 with loss 0.07815001904964447.
+Completed batch 539 with loss 0.13176654279232025.
+Completed batch 540 with loss 0.14172276854515076.
+Completed batch 541 with loss 0.05161557346582413.
+Completed batch 542 with loss 0.06992847472429276.
+Completed batch 543 with loss 0.050972383469343185.
+Completed batch 544 with loss 0.06394707411527634.
+Completed batch 545 with loss 0.04280794784426689.
+Completed batch 546 with loss 0.06579650938510895.
+Completed batch 547 with loss 0.042710043489933014.
+Completed batch 548 with loss 0.058050841093063354.
+Completed batch 549 with loss 0.044781118631362915.
+Completed batch 550 with loss 0.046734657138586044.
+Completed batch 551 with loss 0.04759236425161362.
+Completed batch 552 with loss 0.04008017107844353.
+Completed batch 553 with loss 0.04657692462205887.
+Completed batch 554 with loss 0.036103274673223495.
+Completed batch 555 with loss 0.04152842238545418.
+Completed batch 556 with loss 0.03498997539281845.
+Completed batch 557 with loss 0.03773941099643707.
+Completed batch 558 with loss 0.03391692787408829.
+Completed batch 559 with loss 0.03589582070708275.
+Completed batch 560 with loss 0.03286473825573921.
+Completed batch 561 with loss 0.0342814102768898.
+Completed batch 562 with loss 0.031193530187010765.
+Completed batch 563 with loss 0.03335089981555939.
+Completed batch 564 with loss 0.03015817701816559.
+Completed batch 565 with loss 0.03172973170876503.
+Completed batch 566 with loss 0.028929859399795532.
+Completed batch 567 with loss 0.030499424785375595.
+Completed batch 568 with loss 0.028236020356416702.
+Completed batch 569 with loss 0.029297305271029472.
+Completed batch 570 with loss 0.029448233544826508.
+Completed batch 571 with loss 0.028901858255267143.
+Completed batch 572 with loss 0.028563253581523895.
+Completed batch 573 with loss 0.027153220027685165.
+Completed batch 574 with loss 0.027518607676029205.
+Completed batch 575 with loss 0.027579117566347122.
+Completed batch 576 with loss 0.028118252754211426.
+Completed batch 577 with loss 0.02865210361778736.
+Completed batch 578 with loss 0.029160484671592712.
+Completed batch 579 with loss 0.027974728494882584.
+Completed batch 580 with loss 0.028240211308002472.
+Completed batch 581 with loss 0.027563750743865967.
+Completed batch 582 with loss 0.026225345209240913.
+Completed batch 583 with loss 0.026523498818278313.
+Completed batch 584 with loss 0.026522351428866386.
+Completed batch 585 with loss 0.026403382420539856.
+Completed batch 586 with loss 0.026256587356328964.
+Completed batch 587 with loss 0.02681918255984783.
+Completed batch 588 with loss 0.025476843118667603.
+Completed batch 589 with loss 0.02636871300637722.
+Completed batch 590 with loss 0.026461131870746613.
+Completed batch 591 with loss 0.027049221098423004.
+Completed batch 592 with loss 0.0273177120834589.
+Completed batch 593 with loss 0.02696508727967739.
+Completed batch 594 with loss 0.028191441670060158.
+Completed batch 595 with loss 0.030134480446577072.
+Completed batch 596 with loss 0.035868849605321884.
+Completed batch 597 with loss 0.04851687699556351.
+Completed batch 598 with loss 0.07946361601352692.
+Completed batch 599 with loss 0.11719822883605957.
+Completed batch 600 with loss 0.08012998104095459.
+Completed batch 601 with loss 0.03229782357811928.
+Completed batch 602 with loss 0.06286852061748505.
+Completed batch 603 with loss 0.03477783501148224.
+Completed batch 604 with loss 0.053693268448114395.
+Completed batch 605 with loss 0.03427634388208389.
+Completed batch 606 with loss 0.05084151402115822.
+Completed batch 607 with loss 0.03507675603032112.
+Completed batch 608 with loss 0.04350833594799042.
+Completed batch 609 with loss 0.03623875230550766.
+Completed batch 610 with loss 0.03808949142694473.
+Completed batch 611 with loss 0.03693245351314545.
+Completed batch 612 with loss 0.0341368094086647.
+Completed batch 613 with loss 0.036300428211688995.
+Completed batch 614 with loss 0.030554572120308876.
+Completed batch 615 with loss 0.03526092320680618.
+Completed batch 616 with loss 0.0298809465020895.
+Completed batch 617 with loss 0.03403589874505997.
+Completed batch 618 with loss 0.028851542621850967.
+Completed batch 619 with loss 0.032301947474479675.
+Completed batch 620 with loss 0.027928659692406654.
+Completed batch 621 with loss 0.0319359265267849.
+Completed batch 622 with loss 0.02844751626253128.
+Completed batch 623 with loss 0.030028853565454483.
+Completed batch 624 with loss 0.02762584388256073.
+Completed batch 625 with loss 0.028957946226000786.
+Completed batch 626 with loss 0.028022892773151398.
+Completed batch 627 with loss 0.026515860110521317.
+Completed batch 628 with loss 0.027040373533964157.
+Completed batch 629 with loss 0.026120269671082497.
+Completed batch 630 with loss 0.026721853762865067.
+Completed batch 631 with loss 0.026650264859199524.
+Completed batch 632 with loss 0.027115054428577423.
+Completed batch 633 with loss 0.025916168466210365.
+Completed batch 634 with loss 0.026277199387550354.
+Completed batch 635 with loss 0.02631353586912155.
+Completed batch 636 with loss 0.025921599939465523.
+Completed batch 637 with loss 0.02566244825720787.
+Completed batch 638 with loss 0.024994850158691406.
+Completed batch 639 with loss 0.02526066079735756.
+Completed batch 640 with loss 0.02583812177181244.
+Completed batch 641 with loss 0.025615444406867027.
+Completed batch 642 with loss 0.026492655277252197.
+Completed batch 643 with loss 0.02639562264084816.
+Completed batch 644 with loss 0.02663881704211235.
+Completed batch 645 with loss 0.02644895389676094.
+Completed batch 646 with loss 0.027548346668481827.
+Completed batch 647 with loss 0.02727486565709114.
+Completed batch 648 with loss 0.026749849319458008.
+Completed batch 649 with loss 0.026474790647625923.
+Completed batch 650 with loss 0.027259638532996178.
+Completed batch 651 with loss 0.027682125568389893.
+Completed batch 652 with loss 0.029681093990802765.
+Completed batch 653 with loss 0.034617356956005096.
+Completed batch 654 with loss 0.048998404294252396.
+Completed batch 655 with loss 0.0741640254855156.
+Completed batch 656 with loss 0.09203492105007172.
+Completed batch 657 with loss 0.07315420359373093.
+Completed batch 658 with loss 0.03561566397547722.
+Completed batch 659 with loss 0.04883326590061188.
+Completed batch 660 with loss 0.047135449945926666.
+Completed batch 661 with loss 0.03521326184272766.
+Completed batch 662 with loss 0.04559069499373436.
+Completed batch 663 with loss 0.03311020880937576.
+Completed batch 664 with loss 0.043598711490631104.
+Completed batch 665 with loss 0.03229047358036041.
+Completed batch 666 with loss 0.039811648428440094.
+Completed batch 667 with loss 0.03140350803732872.
+Completed batch 668 with loss 0.03555602580308914.
+Completed batch 669 with loss 0.03079098090529442.
+Completed batch 670 with loss 0.034840747714042664.
+Completed batch 671 with loss 0.030182363465428352.
+Completed batch 672 with loss 0.03259223699569702.
+Completed batch 673 with loss 0.028211448341608047.
+Completed batch 674 with loss 0.031960491091012955.
+Completed batch 675 with loss 0.027422599494457245.
+Completed batch 676 with loss 0.030366674065589905.
+Completed batch 677 with loss 0.027125950902700424.
+Completed batch 678 with loss 0.02894238755106926.
+Completed batch 679 with loss 0.02789141796529293.
+Completed batch 680 with loss 0.027619922533631325.
+Completed batch 681 with loss 0.028965551406145096.
+Completed batch 682 with loss 0.027891691774129868.
+Completed batch 683 with loss 0.029637735337018967.
+Completed batch 684 with loss 0.0277194045484066.
+Completed batch 685 with loss 0.02753845974802971.
+Completed batch 686 with loss 0.028263557702302933.
+Completed batch 687 with loss 0.027132246643304825.
+Completed batch 688 with loss 0.028382159769535065.
+Completed batch 689 with loss 0.027889598160982132.
+Completed batch 690 with loss 0.02738247811794281.
+Completed batch 691 with loss 0.0278331246227026.
+Completed batch 692 with loss 0.02658051997423172.
+Completed batch 693 with loss 0.026421818882226944.
+Completed batch 694 with loss 0.026956235989928246.
+Completed batch 695 with loss 0.026782874017953873.
+Completed batch 696 with loss 0.027074098587036133.
+Completed batch 697 with loss 0.026538506150245667.
+Completed batch 698 with loss 0.026091285049915314.
+Completed batch 699 with loss 0.02589273825287819.
+Completed batch 700 with loss 0.027025096118450165.
+Completed batch 701 with loss 0.026879945769906044.
+Completed batch 702 with loss 0.028101494535803795.
+Completed batch 703 with loss 0.030597563832998276.
+Completed batch 704 with loss 0.037818342447280884.
+Completed batch 705 with loss 0.06529693305492401.
+Completed batch 706 with loss 0.11042699962854385.
+Completed batch 707 with loss 0.10219377279281616.
+Completed batch 708 with loss 0.03835716098546982.
+Completed batch 709 with loss 0.05436931923031807.
+Completed batch 710 with loss 0.049096956849098206.
+Completed batch 711 with loss 0.04502213001251221.
+Completed batch 712 with loss 0.04510593041777611.
+Completed batch 713 with loss 0.04503214359283447.
+Completed batch 714 with loss 0.039369016885757446.
+Completed batch 715 with loss 0.045772433280944824.
+Completed batch 716 with loss 0.03456519544124603.
+Completed batch 717 with loss 0.0442892462015152.
+Completed batch 718 with loss 0.032836537808179855.
+Completed batch 719 with loss 0.0413694754242897.
+Completed batch 720 with loss 0.03324747085571289.
+Completed batch 721 with loss 0.03781472146511078.
+Completed batch 722 with loss 0.03296583518385887.
+Completed batch 723 with loss 0.03528009355068207.
+Completed batch 724 with loss 0.032277438789606094.
+Completed batch 725 with loss 0.03460469841957092.
+Completed batch 726 with loss 0.030643697828054428.
+Completed batch 727 with loss 0.03279177099466324.
+Completed batch 728 with loss 0.029266033321619034.
+Completed batch 729 with loss 0.0324174165725708.
+Completed batch 730 with loss 0.028164945542812347.
+Completed batch 731 with loss 0.03185554966330528.
+Completed batch 732 with loss 0.028743121773004532.
+Completed batch 733 with loss 0.030240409076213837.
+Completed batch 734 with loss 0.028198113664984703.
+Completed batch 735 with loss 0.03021988272666931.
+Completed batch 736 with loss 0.028849028050899506.
+Completed batch 737 with loss 0.028785107657313347.
+Completed batch 738 with loss 0.027957754209637642.
+Completed batch 739 with loss 0.027236048132181168.
+Completed batch 740 with loss 0.02836383879184723.
+Completed batch 741 with loss 0.026691008359193802.
+Completed batch 742 with loss 0.026825597509741783.
+Completed batch 743 with loss 0.026668652892112732.
+Completed batch 744 with loss 0.026539713144302368.
+Completed batch 745 with loss 0.027705201879143715.
+Completed batch 746 with loss 0.02597000077366829.
+Completed batch 747 with loss 0.027324609458446503.
+Completed batch 748 with loss 0.026881486177444458.
+Completed batch 749 with loss 0.02642247825860977.
+Completed batch 750 with loss 0.026916775852441788.
+Completed batch 751 with loss 0.02596832625567913.
+Completed batch 752 with loss 0.025512728840112686.
+Completed batch 753 with loss 0.02560306154191494.
+Completed batch 754 with loss 0.025971628725528717.
+Completed batch 755 with loss 0.025319192558526993.
+Completed batch 756 with loss 0.025585826486349106.
+Completed batch 757 with loss 0.02597377635538578.
+Completed batch 758 with loss 0.025587253272533417.
+Completed batch 759 with loss 0.02561473846435547.
+Completed batch 760 with loss 0.02496247924864292.
+Completed batch 761 with loss 0.02456613816320896.
+Completed batch 762 with loss 0.024380872026085854.
+Completed batch 763 with loss 0.024146592244505882.
+Completed batch 764 with loss 0.024913983419537544.
+Completed batch 765 with loss 0.02409549243748188.
+Completed batch 766 with loss 0.024792203679680824.
+Completed batch 767 with loss 0.025124313309788704.
+Completed batch 768 with loss 0.0244249626994133.
+Completed batch 769 with loss 0.024835720658302307.
+Completed batch 770 with loss 0.025422103703022003.
+Completed batch 771 with loss 0.02530408650636673.
+Completed batch 772 with loss 0.026339754462242126.
+Completed batch 773 with loss 0.027081694453954697.
+Completed batch 774 with loss 0.029002025723457336.
+Completed batch 775 with loss 0.031132148578763008.
+Completed batch 776 with loss 0.03690972924232483.
+Completed batch 777 with loss 0.040353380143642426.
+Completed batch 778 with loss 0.0539538711309433.
+Completed batch 779 with loss 0.07530858367681503.
+Completed batch 780 with loss 0.09199972450733185.
+Completed batch 781 with loss 0.0712365061044693.
+Completed batch 782 with loss 0.04124365746974945.
+Completed batch 783 with loss 0.05259087681770325.
+Completed batch 784 with loss 0.03675764799118042.
+Completed batch 785 with loss 0.04871181398630142.
+Completed batch 786 with loss 0.0357862263917923.
+Completed batch 787 with loss 0.0418248176574707.
+Completed batch 788 with loss 0.034743402153253555.
+Completed batch 789 with loss 0.03722531348466873.
+Completed batch 790 with loss 0.033555544912815094.
+Completed batch 791 with loss 0.03581199422478676.
+Completed batch 792 with loss 0.03205735981464386.
+Completed batch 793 with loss 0.034552715718746185.
+Completed batch 794 with loss 0.03197816014289856.
+Completed batch 795 with loss 0.03441663458943367.
+Completed batch 796 with loss 0.030835948884487152.
+Completed batch 797 with loss 0.03384911268949509.
+Completed batch 798 with loss 0.029879994690418243.
+Completed batch 799 with loss 0.031770892441272736.
+Completed batch 800 with loss 0.0288054458796978.
+Completed batch 801 with loss 0.030268404632806778.
+Completed batch 802 with loss 0.029630854725837708.
+Completed batch 803 with loss 0.027522768825292587.
+Completed batch 804 with loss 0.028150178492069244.
+Completed batch 805 with loss 0.02753344736993313.
+Completed batch 806 with loss 0.027749069035053253.
+Completed batch 807 with loss 0.02670939639210701.
+Completed batch 808 with loss 0.026952387765049934.
+Completed batch 809 with loss 0.027045242488384247.
+Completed batch 810 with loss 0.026403561234474182.
+Completed batch 811 with loss 0.027546439319849014.
+Completed batch 812 with loss 0.02617339789867401.
+Completed batch 813 with loss 0.02575330063700676.
+Completed batch 814 with loss 0.026103509590029716.
+Completed batch 815 with loss 0.02587156742811203.
+Completed batch 816 with loss 0.02654844895005226.
+Completed batch 817 with loss 0.02643505483865738.
+Completed batch 818 with loss 0.026793651282787323.
+Completed batch 819 with loss 0.02602670155465603.
+Completed batch 820 with loss 0.02627922222018242.
+Completed batch 821 with loss 0.026667341589927673.
+Completed batch 822 with loss 0.027669746428728104.
+Completed batch 823 with loss 0.029331360012292862.
+Completed batch 824 with loss 0.03248021751642227.
+Completed batch 825 with loss 0.03847000002861023.
+Completed batch 826 with loss 0.05019088089466095.
+Completed batch 827 with loss 0.06494125723838806.
+Completed batch 828 with loss 0.06297445297241211.
+Completed batch 829 with loss 0.04339681565761566.
+Completed batch 830 with loss 0.03313206508755684.
+Completed batch 831 with loss 0.04242626577615738.
+Completed batch 832 with loss 0.033772487193346024.
+Completed batch 833 with loss 0.03567669168114662.
+Completed batch 834 with loss 0.03721782565116882.
+Completed batch 835 with loss 0.030279910191893578.
+Completed batch 836 with loss 0.03724319487810135.
+Completed batch 837 with loss 0.02964414283633232.
+Completed batch 838 with loss 0.03311646357178688.
+Completed batch 839 with loss 0.02979433909058571.
+Completed batch 840 with loss 0.031008873134851456.
+Completed batch 841 with loss 0.031355708837509155.
+Completed batch 842 with loss 0.028991632163524628.
+Completed batch 843 with loss 0.03252452611923218.
+Completed batch 844 with loss 0.028852000832557678.
+Completed batch 845 with loss 0.03206422179937363.
+Completed batch 846 with loss 0.028142418712377548.
+Completed batch 847 with loss 0.0294501855969429.
+Completed batch 848 with loss 0.027901269495487213.
+Completed batch 849 with loss 0.027646683156490326.
+Completed batch 850 with loss 0.02814764343202114.
+Completed batch 851 with loss 0.028060708194971085.
+Completed batch 852 with loss 0.028693964704871178.
+Completed batch 853 with loss 0.02639177441596985.
+Completed batch 854 with loss 0.02763563022017479.
+Completed batch 855 with loss 0.027322445064783096.
+Completed batch 856 with loss 0.026880064979195595.
+Completed batch 857 with loss 0.02808629907667637.
+Completed batch 858 with loss 0.026173248887062073.
+Completed batch 859 with loss 0.026346199214458466.
+Completed batch 860 with loss 0.02711421251296997.
+Completed batch 861 with loss 0.025840837508440018.
+Completed batch 862 with loss 0.02584857866168022.
+Completed batch 863 with loss 0.026826128363609314.
+Completed batch 864 with loss 0.025648675858974457.
+Completed batch 865 with loss 0.025693081319332123.
+Completed batch 866 with loss 0.02697543427348137.
+Completed batch 867 with loss 0.027514029294252396.
+Completed batch 868 with loss 0.03164571151137352.
+Completed batch 869 with loss 0.041148651391267776.
+Completed batch 870 with loss 0.060934893786907196.
+Completed batch 871 with loss 0.08953983336687088.
+Completed batch 872 with loss 0.08569127321243286.
+Completed batch 873 with loss 0.0404493622481823.
+Completed batch 874 with loss 0.043292686343193054.
+Completed batch 875 with loss 0.048338375985622406.
+Completed batch 876 with loss 0.03446897864341736.
+Completed batch 877 with loss 0.04731137305498123.
+Completed batch 878 with loss 0.03262047469615936.
+Completed batch 879 with loss 0.045395106077194214.
+Completed batch 880 with loss 0.03239122033119202.
+Completed batch 881 with loss 0.04025781899690628.
+Completed batch 882 with loss 0.03193631023168564.
+Completed batch 883 with loss 0.03843428194522858.
+Completed batch 884 with loss 0.029929589480161667.
+Completed batch 885 with loss 0.03634892404079437.
+Completed batch 886 with loss 0.028882458806037903.
+Completed batch 887 with loss 0.033841323107481.
+Completed batch 888 with loss 0.02812056802213192.
+Completed batch 889 with loss 0.0326165147125721.
+Completed batch 890 with loss 0.029408160597085953.
+Completed batch 891 with loss 0.029800567775964737.
+Completed batch 892 with loss 0.02883726917207241.
+Completed batch 893 with loss 0.0293893925845623.
+Completed batch 894 with loss 0.029482172802090645.
+Completed batch 895 with loss 0.0278009120374918.
+Completed batch 896 with loss 0.028983689844608307.
+Completed batch 897 with loss 0.026209071278572083.
+Completed batch 898 with loss 0.02753222920000553.
+Completed batch 899 with loss 0.027614828199148178.
+Completed batch 900 with loss 0.026937317103147507.
+Completed batch 901 with loss 0.027886398136615753.
+Completed batch 902 with loss 0.02713734470307827.
+Completed batch 903 with loss 0.02722788229584694.
+Completed batch 904 with loss 0.027125736698508263.
+Completed batch 905 with loss 0.026861175894737244.
+Completed batch 906 with loss 0.02658921852707863.
+Completed batch 907 with loss 0.027057955041527748.
+Completed batch 908 with loss 0.02666112780570984.
+Completed batch 909 with loss 0.02636018767952919.
+Completed batch 910 with loss 0.026366032660007477.
+Completed batch 911 with loss 0.02626197412610054.
+Completed batch 912 with loss 0.026294812560081482.
+Completed batch 913 with loss 0.026723820716142654.
+Completed batch 914 with loss 0.02665254846215248.
+Completed batch 915 with loss 0.02699708566069603.
+Completed batch 916 with loss 0.02671973407268524.
+Completed batch 917 with loss 0.026185788214206696.
+Completed batch 918 with loss 0.026205720379948616.
+Completed batch 919 with loss 0.02534162439405918.
+Completed batch 920 with loss 0.025858378037810326.
+Completed batch 921 with loss 0.025484316051006317.
+Completed batch 922 with loss 0.02559119462966919.
+Completed batch 923 with loss 0.026829905807971954.
+Completed batch 924 with loss 0.025205697864294052.
+Completed batch 925 with loss 0.026459433138370514.
+Completed batch 926 with loss 0.027076762169599533.
+Completed batch 927 with loss 0.027143891900777817.
+Completed batch 928 with loss 0.027586741372942924.
+Completed batch 929 with loss 0.029083583503961563.
+Completed batch 930 with loss 0.03361779451370239.
+Completed batch 931 with loss 0.04575883224606514.
+Completed batch 932 with loss 0.07064062356948853.
+Completed batch 933 with loss 0.11265244334936142.
+Completed batch 934 with loss 0.1085164025425911.
+Completed batch 935 with loss 0.03786081448197365.
+Completed batch 936 with loss 0.06261217594146729.
+Completed batch 937 with loss 0.043317582458257675.
+Completed batch 938 with loss 0.052460748702287674.
+Completed batch 939 with loss 0.04073438048362732.
+Completed batch 940 with loss 0.05149592086672783.
+Completed batch 941 with loss 0.0367012694478035.
+Completed batch 942 with loss 0.0499708354473114.
+Completed batch 943 with loss 0.03435688093304634.
+Completed batch 944 with loss 0.045913368463516235.
+Completed batch 945 with loss 0.03450058400630951.
+Completed batch 946 with loss 0.04026642441749573.
+Completed batch 947 with loss 0.03629576414823532.
+Completed batch 948 with loss 0.036489084362983704.
+Completed batch 949 with loss 0.03390234708786011.
+Completed batch 950 with loss 0.03523708134889603.
+Completed batch 951 with loss 0.03264515474438667.
+Completed batch 952 with loss 0.03328684717416763.
+Completed batch 953 with loss 0.030519302934408188.
+Completed batch 954 with loss 0.03207548335194588.
+Completed batch 955 with loss 0.028798077255487442.
+Completed batch 956 with loss 0.03141629323363304.
+Completed batch 957 with loss 0.02800522744655609.
+Completed batch 958 with loss 0.030881045386195183.
+Completed batch 959 with loss 0.028435558080673218.
+Completed batch 960 with loss 0.029862644150853157.
+Completed batch 961 with loss 0.02804272249341011.
+Completed batch 962 with loss 0.028745263814926147.
+Completed batch 963 with loss 0.02750910446047783.
+Completed batch 964 with loss 0.027081534266471863.
+Completed batch 965 with loss 0.028752455487847328.
+Completed batch 966 with loss 0.02663063444197178.
+Completed batch 967 with loss 0.02798994444310665.
+Completed batch 968 with loss 0.026831768453121185.
+Completed batch 969 with loss 0.026245974004268646.
+Completed batch 970 with loss 0.02666088566184044.
+Completed batch 971 with loss 0.025968126952648163.
+Completed batch 972 with loss 0.026220839470624924.
+Completed batch 973 with loss 0.026606960222125053.
+Completed batch 974 with loss 0.025211790576577187.
+Completed batch 975 with loss 0.026393964886665344.
+Completed batch 976 with loss 0.025188183411955833.
+Completed batch 977 with loss 0.025621559470891953.
+Completed batch 978 with loss 0.026040200144052505.
+Completed batch 979 with loss 0.024972504004836082.
+Completed batch 980 with loss 0.025398120284080505.
+Completed batch 981 with loss 0.02631358616054058.
+Completed batch 982 with loss 0.02576657012104988.
+Completed batch 983 with loss 0.02587871067225933.
+Completed batch 984 with loss 0.0256522037088871.
+Completed batch 985 with loss 0.02513219229876995.
+Completed batch 986 with loss 0.025343632325530052.
+Completed batch 987 with loss 0.02514028735458851.
+Completed batch 988 with loss 0.02514628693461418.
+Completed batch 989 with loss 0.025708774104714394.
+Completed batch 990 with loss 0.026040244847536087.
+Completed batch 991 with loss 0.026209767907857895.
+Completed batch 992 with loss 0.026748597621917725.
+Completed batch 993 with loss 0.028446868062019348.
+Completed batch 994 with loss 0.034339115023612976.
+Completed batch 995 with loss 0.04406614974141121.
+Completed batch 996 with loss 0.05570850893855095.
+Completed batch 997 with loss 0.07017362862825394.
+Completed batch 998 with loss 0.07547575980424881.
+Completed batch 999 with loss 0.057338885962963104.
+Completed batch 1000 with loss 0.03720344603061676.
+Completed batch 1001 with loss 0.04507197439670563.
+Completed batch 1002 with loss 0.034617483615875244.
+Completed batch 1003 with loss 0.04088890552520752.
+Completed batch 1004 with loss 0.035704534500837326.
+Completed batch 1005 with loss 0.03467164933681488.
+Completed batch 1006 with loss 0.037264496088027954.
+Completed batch 1007 with loss 0.032688118517398834.
+Completed batch 1008 with loss 0.035958997905254364.
+Completed batch 1009 with loss 0.032645851373672485.
+Completed batch 1010 with loss 0.03463099151849747.
+Completed batch 1011 with loss 0.032564908266067505.
+Completed batch 1012 with loss 0.03283808380365372.
+Completed batch 1013 with loss 0.0312793031334877.
+Completed batch 1014 with loss 0.03221060335636139.
+Completed batch 1015 with loss 0.029873035848140717.
+Completed batch 1016 with loss 0.031074941158294678.
+Completed batch 1017 with loss 0.028401749208569527.
+Completed batch 1018 with loss 0.029965266585350037.
+Completed batch 1019 with loss 0.02787550911307335.
+Completed batch 1020 with loss 0.028706710785627365.
+Completed batch 1021 with loss 0.02730594389140606.
+Completed batch 1022 with loss 0.02740543708205223.
+Completed batch 1023 with loss 0.02757440134882927.
+Program terminated successfully!
