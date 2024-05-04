@@ -23,7 +23,8 @@ class TinyAutoencoder(nn.Module):
 
     def forward(self, x) -> Tuple[t.Tensor, t.Tensor, t.Tensor]:
         in_data = x.reshape(-1, x.shape[-1])
-        out = self.out_layer(self.relu(self.in_layer(in_data)))
+        with_bias = in_data + self.out_layer.bias
+        out = self.out_layer(self.relu(self.in_layer(with_bias)))
         out = out.reshape_as(x)
         loss = F.mse_loss(out, x)
         return loss, out
